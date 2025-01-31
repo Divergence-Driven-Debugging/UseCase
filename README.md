@@ -8,7 +8,7 @@ To advance my research, we want to collect bug scenarios defined as follows:
 (iii) a new code version incorporating these changes;
 and (iv) running the new code version results in \textit{unexpected} behavior relative to the original (that we call \textit{bug} in the remainder of this paper), potentially causing (a) errors or (b) different behavior that operates but deviates from the orignal intended functionality.
 
-### Criteria for Selecting Echo Bugs in my Research
+### Criteria for Selecting this Bugs Scenario in my Research
 
 In the context of this research, the following criteria apply to echo bugs:
 
