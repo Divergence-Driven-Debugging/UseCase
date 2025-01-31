@@ -13,7 +13,7 @@ body:
     id: contact
     attributes:
       label: project
-      description: project :
+      description: project 
       placeholder: ex. email@example.com
     validations:
       required: false
@@ -22,7 +22,7 @@ body:
     id: contact
     attributes:
       label: v1
-      description: Commit for Version 1:
+      description: Commit for Version 1
       placeholder: ex. email@example.com
     validations:
       required: false
@@ -31,7 +31,7 @@ body:
     id: contact
     attributes:
       label: v2
-      description: Commit for Version 2:
+      description: Commit for Version 2
       placeholder: ex. email@example.com
     validations:
       required: false
