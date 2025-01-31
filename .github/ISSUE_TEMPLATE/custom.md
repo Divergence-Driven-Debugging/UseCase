@@ -8,3 +8,92 @@ assignees: ''
 ---
 
 
+name: Bug Report
+description: File a bug report.
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+
+  - type: input
+    id: contact
+    attributes:
+      label: project
+      description: project :
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+    
+  - type: input
+    id: contact
+    attributes:
+      label: v1
+      description: Commit for Version 1:
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+
+  - type: input
+    id: contact
+    attributes:
+      label: v2
+      description: Commit for Version 2:
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+
+- type: textarea
+    id: contact
+    attributes:
+      label: scenario
+      description: Scenario to Execute in Both Versions
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+  render: shell
+
+  
+
+    
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+      value: 
+    validations:
+      required: false
+
+  - type: textarea
+    id: remarks
+    attributes:
+      label: remarks
+      description: Additional Remarks
+      placeholder: Include any supplementary observations, such as insights into the cause of the bug or its potential impact
+      value: "A bug happened!"
+    validations:
+      required: false
+
+
+
+    
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output
+      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      render: shell
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: What os are you seeing the problem on?
+      multiple: true
+      options:
+        - Mac
+        - Windows
+        - Other
