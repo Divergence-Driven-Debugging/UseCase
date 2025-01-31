@@ -13,7 +13,7 @@ body:
     attributes:
       label: project
       description: project 
-      placeholder: ex. email@example.com
+      placeholder: ex. https://github.com/Divergence-Driven-Debugging/Echo
     validations:
       required: false
     
@@ -23,7 +23,7 @@ body:
     attributes:
       label: v1
       description: Commit for Version 1
-      placeholder: ex. email@example.com
+      placeholder: ex. https://github.com/Divergence-Driven-Debugging/Echo/commit/cd50068d2870e5dce92d38f0e06c7879ac82aa28
     validations:
       required: false
 
@@ -32,7 +32,7 @@ body:
     attributes:
       label: v2
       description: Commit for Version 2
-      placeholder: ex. email@example.com
+      placeholder: ex. https://github.com/Divergence-Driven-Debugging/Echo/commit/cd50068d2870e5dce92d38f0e06c7879ac82aa28
     validations:
       required: false
 
@@ -89,4 +89,24 @@ body:
         - Mac
         - Windows
         - Other
+
+  - type: textarea
+    id: versioningPharo
+    attributes:
+      label: version
+      description: Pharo version
+      value: Pharo 12 / Moose 12 / ect
+    validations:
+      required: false
+
+
+  - type: textarea
+    id: versioningVm
+    attributes:
+      label: versionVM
+      description: Pharo vm version
+      placeholder: If you know the Pharo VM version
+      value: Pharo 12 / Moose 12 / ect
+    validations:
+      required: false
 
