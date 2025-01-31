@@ -8,3 +8,13 @@ body:
       value: |
         Thanks for taking the time to fill out this bug report!
 
+  - type: input
+    id: contact
+    attributes:
+      label: project
+      description: project 
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+    
+  
