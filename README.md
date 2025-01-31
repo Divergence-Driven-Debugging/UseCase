@@ -18,7 +18,7 @@ In the context of this research, the following criteria apply to echo bugs:
 
  - Baseline Independence: Bugs related to baselines are excluded.
 
-- Only programmatic use cases( e.g we can start the program same of ```ST Transcript open``` ) .
+- It must be programmatically reproducible( e.g we can start the program same of ``` Transcript open``` ) .
 
 
 ### How to share your scenario
