@@ -6,7 +6,7 @@ To advance my research, we want to collect bug scenarios defined as follows:
 (i) an original code version that, when executed, produces both an expected behavior and result;
 (ii) a set of code changes;
 (iii) a new code version incorporating these changes;
-and (iv) running the new code version results in \textit{unexpected} behavior relative to the original (that we call \textit{bug} in the remainder of this paper), potentially causing (a) errors or (b) different behavior that operates but deviates from the orignal intended functionality.
+and (iv) running the new code version results in unexpected behavior relative to the original , potentially causing (a) errors or (b) different behavior that operates but deviates from the orignal intended functionality.
 
 ### Criteria for Selecting this Bugs Scenario in my Research
 
