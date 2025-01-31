@@ -95,7 +95,7 @@ body:
     attributes:
       label: version
       description: Pharo version
-      value: Pharo 12 / Moose 12 / ect
+      placeholder: Pharo 12 / Moose 12 / ect
     validations:
       required: false
 
@@ -106,7 +106,6 @@ body:
       label: versionVM
       description: Pharo vm version
       placeholder: If you know the Pharo VM version
-      value: Pharo 12 / Moose 12 / ect
     validations:
       required: false
 
