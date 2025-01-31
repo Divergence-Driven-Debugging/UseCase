@@ -41,7 +41,7 @@ body:
     attributes:
       label: scenario
       description: Scenario to Execute in Both Versions
-      placeholder: ex. email@example.com
+      placeholder: ```ST Transcript open```
       render: shell
     validations:
       required: false
@@ -66,7 +66,7 @@ body:
       label: remarks
       description: Additional Remarks
       placeholder: Include any supplementary observations, such as insights into the cause of the bug or its potential impact
-      value: "A bug happened!"
+      value: 
     validations:
       required: false
 
