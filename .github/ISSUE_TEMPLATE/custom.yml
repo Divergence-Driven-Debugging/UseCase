@@ -18,3 +18,21 @@ body:
       required: false
     
   
+- type: input
+    id: contact
+    attributes:
+      label: v1
+      description: Commit for Version 1
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+
+  - type: input
+    id: contact
+    attributes:
+      label: v2
+      description: Commit for Version 2
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+
