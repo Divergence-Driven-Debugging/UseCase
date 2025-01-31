@@ -9,7 +9,7 @@ body:
         Thanks for taking the time to fill out this bug report!
 
   - type: input
-    id: contact
+    id: PJ
     attributes:
       label: project
       description: project 
@@ -19,7 +19,7 @@ body:
     
   
   - type: input
-    id: contact
+    id: cm1
     attributes:
       label: v1
       description: Commit for Version 1
@@ -28,7 +28,7 @@ body:
       required: false
 
   - type: input
-    id: contact
+    id: cm2
     attributes:
       label: v2
       description: Commit for Version 2
@@ -37,7 +37,7 @@ body:
       required: false
 
   - type: textarea
-    id: contact
+    id: scenario
     attributes:
       label: scenario
       description: Scenario to Execute in Both Versions
